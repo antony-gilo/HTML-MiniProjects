@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=PT+Sans+Narrow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header{
+    position: fixed;
+    color: #C8FCEA;
+    left: 1.3rem;
+    top: 1.3rem;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+section{
+    height: 100vh;
+    background-image: url(/assets/images/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+    background-size: cover;
+    /* THIS PROPERTY ADDS IN THE PARALLAX EFFECT BY DETACHING THE IMAGE FROM THE SECTION AND ATTACHING IT TO THE VIEWPORT */
+    background-attachment: fixed;
+}
+
+.img-2{
+    background-image: url(/assets/images/alexander-shatov-PHH_0uw9-Qw-unsplash.jpg);
+}
+
+.img-3{
+    background-image: url(/assets/images/mario-caruso-csdalL5i_zs-unsplash.jpg);
+}
+
+.img-4{
+    background-image: url(/assets/images/miti-bdoaTeoh6gU-unsplash.jpg);
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #C8FCEA;
+    padding: 1.3rem;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #00C896;
+}
