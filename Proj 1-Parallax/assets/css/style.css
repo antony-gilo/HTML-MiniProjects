@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=PT+Sans+Narrow&display=swap');
 
 *{
@@ -7,8 +7,7 @@
 }
 
 body{
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
 header{
@@ -26,25 +25,26 @@ p{
 
 section{
     height: 100vh;
-    background-image: url(/assets/images/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+    background-image: url(../../assets/images/sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
     background-size: cover;
     /* THIS PROPERTY ADDS IN THE PARALLAX EFFECT BY DETACHING THE IMAGE FROM THE SECTION AND ATTACHING IT TO THE VIEWPORT */
     background-attachment: fixed;
 }
 
 .img-2{
-    background-image: url(/assets/images/alexander-shatov-PHH_0uw9-Qw-unsplash.jpg);
+    background-image: url(../../assets/images/alexander-shatov-PHH_0uw9-Qw-unsplash.jpg);
 }
 
 .img-3{
-    background-image: url(/assets/images/mario-caruso-csdalL5i_zs-unsplash.jpg);
+    background-image: url(../../assets/images/mario-caruso-csdalL5i_zs-unsplash.jpg);
 }
 
 .img-4{
-    background-image: url(/assets/images/miti-bdoaTeoh6gU-unsplash.jpg);
+    background-image: url(../../assets/images/miti-bdoaTeoh6gU-unsplash.jpg);
 }
 
 footer{
+    font-family: 'PT Sans Narrow', sans-serif;
     position: fixed;
     bottom: 10px;
     left: 10px;
