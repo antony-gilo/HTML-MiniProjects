@@ -82,6 +82,13 @@ section img{
     header{
         padding: 20px 40px;
     }
+    nav a{
+        display: block;
+    }
+
+    nav a:hover{
+        border: none;
+    }
 
     body{
         font-family: 'Quicksand', sans-serif;
@@ -93,7 +100,7 @@ section img{
         margin-right: auto;
     }
 
-    h2{
+    h2, blockquote{
         font-size: 28px;
     }
 
@@ -102,7 +109,6 @@ section img{
     }
 
     blockquote{
-        font-size: 28px;
         line-height: .9;
         font-style: italic;
         padding: 20px;
