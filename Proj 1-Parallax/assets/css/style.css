@@ -7,8 +7,15 @@
     padding: 0;
 }
 
-body{
-    font-family: 'Jost', sans-serif;
+@font-face{
+    font-family: 'BroshK4';
+    src: url(../fonts/BroshK4-Blue-Bold.ttf);
+    font-weight: lighter;
+}
+
+header h1{
+    font-family: 'BroshK4', sans-serif;
+    opacity: .7;
 }
 
 header{
@@ -43,6 +50,14 @@ section{
 
 .img-4{
     background-image: url(../../assets/images/miti-bdoaTeoh6gU-unsplash.jpg);
+}
+
+.img-5{
+    background-image: url(../../assets/images/natalia-yakovleva-DIewyzpUbRc-unsplash.jpg);
+}
+
+.img-6{
+    background-image: url(../../assets/images/li-zhang-6msG2StInLs-unsplash.jpg);
 }
 
 footer{
