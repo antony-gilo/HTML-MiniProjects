@@ -29,6 +29,7 @@ nav a{
     color: azure;
     text-decoration: none;
 }
+
 nav a:hover{
     padding-bottom: 1.5px;
     color: #5000ff;
@@ -74,4 +75,38 @@ blockquote{
 
 section img{
     width: 100%;
+}
+
+@media (max-width: 720px){
+
+    header{
+        padding: 20px 40px;
+    }
+
+    body{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        color: azure;
+        max-width: 640px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    section p{
+        padding: 10px;
+    }
+
+    blockquote{
+        font-size: 28px;
+        line-height: .9;
+        font-style: italic;
+        padding: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
